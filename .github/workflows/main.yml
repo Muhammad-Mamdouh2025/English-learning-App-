@@ -1,0 +1,20 @@
+# 1. ادخل على مجلد المشروع عندك
+cd path/to/english-learning-app
+
+# 2. جهز git في المجلد
+git init
+
+# 3. أضف كل الملفات
+git add .
+
+# 4. أول commit
+git commit -m "First commit - English Learning App"
+
+# 5. غير الفرع الرئيسي لـ main
+git branch -M main
+
+# 6. اربط المشروع بالـ repository اللي عملناه على GitHub
+git remote add origin https://github.com/mohamed-mamdouh/english-learning-app.git
+
+# 7. ارفع الكود لأول مرة
+git push -u origin main
